@@ -1,4 +1,5 @@
 import React from "react";
+import { LandingPage } from "./home/landingPage";
 function Navbar() {
   return (
     <>
@@ -75,9 +76,9 @@ function Navbar() {
 
 export function Viewport() {
   return (
-    <div className="w-screen h-screen m-0 p-0 block bg-primaryBlue">
+    <div className="w-screen h-screen m-0 p-0 block bg-primaryBlue overflow-y-scroll">
       <Navbar></Navbar>
-      <p>Hello to the world</p>
+      <LandingPage></LandingPage>
     </div>
   );
 }

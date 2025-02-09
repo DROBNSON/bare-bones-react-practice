@@ -7,7 +7,11 @@ module.exports = {
     extend: {
       colors: {
         primaryBlue: "#0654f4",
+      },
+      fontSize: {
+        xxxl: '12rem'
       }
+
     },
   },
   plugins: [],
