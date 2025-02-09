@@ -1,11 +1,10 @@
-import './App.css';
-import { Viewport } from './View/viewport';
+import "./App.css";
+import { Viewport } from "./view/viewport.js";
 
-export default function  App() {
+export default function App() {
   return (
     <div className="App">
-        <Viewport></Viewport>
+      <Viewport></Viewport>
     </div>
   );
 }
-
